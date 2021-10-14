@@ -1,0 +1,35 @@
+body {
+    background-color: #171817;
+    color: aliceblue;
+}
+
+.navbar {
+    overflow:hidden; 
+    background-color: #333;
+    position: fixed;
+    top: 1px;
+    left:1055;
+    width: 100%;
+}
+
+a:link, a:visited {
+    background-color: #4e4b4a;
+    color: white;
+    padding: 14px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+}
+
+div.relative {
+    position: relative;
+    left: 0px;
+    padding: 130px;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border: 3px solid #171817;
+}
+
+div.bgimage {
+    background-image: url('bgimage1.jpg');
+}
